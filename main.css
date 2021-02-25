@@ -1,4 +1,128 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-.preview__title {
-    color: red
+body {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.42;
+    background: #29282D;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: inherit;
+}
+
+ul {
+    padding: 0 ;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.container {
+    margin: 0px auto;
+    width: 1140px;
+}
+
+.header {
+    height: 120px;
+    position: relative;
+    margin-bottom: 128px;
+}
+
+.header .logo {
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+}
+
+.header .menu {
+    position: absolute;
+    top: 30px;
+    left: 256px;
+}
+
+.header .contacts {
+    position: absolute;
+    font-style: normal;
+    text-align: right;
+    line-height: 16px;
+    top: 29px;
+    right: 0px;
+}
+
+.menu__item {
+display: inline-block;
+vertical-align: middle;
+margin-right: 51px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    color: #d3a557;
+}
+
+.contacts__phone {
+    text-decoration: none;
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+
+.contacts__dropdown-title {
+    font-size: 13px;
+    text-decoration: underline;
+    color: #d3a557;
+}
+
+.hero__text-section {
+    width: 500px;
+    margin-bottom: 45px;
+}
+
+.hero__title {
+    font-size: 58px;
+    font-weight: bold;
+    line-height: 1.12;
+    margin-bottom: 24px;
+}
+
+.hero__subtitle {
+    font-size: 18px;
+    color: #d3a557;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background: #dfb56d;
+    box-shadow: 0px 8px 35px rgba(223, 181, 109, .35);
+    border-radius: 3px;
+    padding: 17px 38px 16px 39px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: #d3a557;
+    box-shadow: 0px 8px 35px rgba(223, 181, 109, .35);
+    border-radius: 3px;
 }
