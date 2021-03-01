@@ -6,6 +6,7 @@ body {
     background: #29282D;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    margin: 1px;
 }
 
 a {
@@ -40,9 +41,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-    height: 120px;
+    min-height: 247px;
     position: relative;
-    margin-bottom: 127px;
 }
 
 .logo {
@@ -113,8 +113,6 @@ margin-right: 51px;
     color: #d3a557;
 }
 
-
-
 .hero__text-section {
     width: 500px;
     margin-bottom: 186px;
@@ -167,7 +165,6 @@ margin-right: 51px;
     position: relative;
     margin: 0px auto;
     width: 1140px;
-    height: 560px;
 }
 
 .section__title {
@@ -177,8 +174,7 @@ margin-right: 51px;
 }
 
 .offers {
-    position: absolute;
-    top: 100px;
+    margin-top:  51px;
 }
 
 .offers__item {
@@ -274,7 +270,7 @@ margin-right: 51px;
 }
 
 .news {
-    margin-top: 116px;
+    margin-top: 127px;
 }
 
 .news__list {
@@ -306,11 +302,11 @@ margin-right: 51px;
     left: 30px;
     right: 0px;
     top: 251px;  
+    padding: 0px 60px 0px 0px;
 }
 
 .news__date {
     font-size: 14px;
-    margin-bottom: 18px;
 }
 
 .news__subtitlr {
@@ -359,8 +355,12 @@ margin-right: 51px;
     background: #353439;
 }
 
+.about{
+    margin-top: 146px;
+    margin-bottom: 68px;
+}
+
 .about__img {
-    margin-top: 164px;
     display: inline-block;
     vertical-align: top;
 }
@@ -373,7 +373,7 @@ margin-right: 51px;
     border-radius: 5px;
     width: 786px;
     margin-left: -141px;
-    margin-top: 260px;
+    margin-top: 96px;
 }
 
 .about__title {
@@ -387,17 +387,18 @@ margin-right: 51px;
     margin-bottom: 71px;
 }
 
-.footer__container {
-    margin-top: 241px;
-    height: 152px;
+.footer-container {
     width: 1140px;
-    margin-right:  auto;
-    margin-left: auto;
-    position: relative;
+    margin: 0px auto;
 }
 
 .footer-container__content {
+    display: inline-block;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer {
+    position: relative;
 }
 
 .socials {
