@@ -6,7 +6,7 @@ body {
     background: #29282D;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    margin: 1px;
+    margin: 9px;
 }
 
 a {
@@ -391,13 +391,11 @@ margin-right: 51px;
 .footer-container {
     width: 1140px;
     margin: 0px auto;
+    min-height: 100px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 30px;
 }
 
-.footer-container__content {
-    display: inline-block;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 29px 0px 0px 0px;
-}
 
 .footer {
     position: relative; 
