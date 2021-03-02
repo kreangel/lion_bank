@@ -391,23 +391,16 @@ margin-right: 51px;
 .footer-container {
     width: 1140px;
     margin: 0px auto;
-
 }
 
 .footer-container__content {
     display: inline-block;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 0px 0px 0px 0px;
-}
-
-.footer-wrapper {
     padding: 29px 0px 0px 0px;
-
 }
 
 .footer {
-    position: relative;
-    
+    position: relative; 
 }
 
 .socials {
