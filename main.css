@@ -6,7 +6,7 @@ body {
     background: #29282D;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    margin: 9px;
+    margin: 8px;
 }
 
 a {
@@ -393,7 +393,7 @@ margin-right: 51px;
     margin: 0px auto;
     min-height: 100px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding-top: 28px;
+    padding-top: 29px;
 }
 
 
