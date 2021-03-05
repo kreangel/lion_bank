@@ -1,0 +1,36 @@
+.btn {
+    box-shadow: 0px 8px 35px rgba(223, 181, 109, .35);
+    border-radius: 3px;
+    padding: 17px 38px 16px 39px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn--color--ginger {
+    background: #dfb56d;
+}
+
+.btn:hover {
+    background: #d3a557;
+    box-shadow: 0px 8px 35px rgba(223, 181, 109, .35);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn--color--black {
+    background: #2b2b2b;
+}
+
+.btn--color--black:hover {
+    background: #dfb56d;
+}
+
+.btn__wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
