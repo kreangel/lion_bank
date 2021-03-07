@@ -54,7 +54,9 @@
 
 .offer__img {
     position: absolute;
-    top: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .offer__content {
