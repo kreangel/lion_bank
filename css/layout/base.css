@@ -14,14 +14,14 @@ body {
 }
 
 .main-page-wrapper {
-    background: url("../../img/lion-header1.jpg") center top  no-repeat, url("../../img/bottom-pic1.png") right -6px bottom 191px no-repeat;
+    background: url("../../img/background/lion-header1.jpg") center top  no-repeat, url("../../img/background/bottom-pic1.png") right -6px bottom 191px no-repeat;
 }
 
 .wrapper {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    min-width: 1140px;
+    min-width: 1200px;
     min-height: 100%;
 }
 
@@ -56,4 +56,9 @@ h1, h2, h3, h4, h5, h6 {
 
 * {
     box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
 }

@@ -1,4 +1,5 @@
 .about{
+    display: flex;
     margin-top: 146px;
     margin-bottom: 55px;
 }
@@ -10,18 +11,18 @@
 }
 
 .about__img {
-    display: inline-block;
-    vertical-align: top;
+    display: block;
+    width: 490px;
+    height: 505px;
+
 }
 
 .about__content {
     background: #202123;
     padding: 70px 160px 69px 81px;
-    display: inline-block;
-    vertical-align: top;
     border-radius: 5px;
-    width: 786px;
-    margin-left: -141px;
+    max-width: 785px;
+    margin-left: -136px;
     margin-top: 96px;
 }
 

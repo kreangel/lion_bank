@@ -1,19 +1,31 @@
 .pagination {
+    display: flex;
+    justify-content: center;
     text-align: center;
     margin-top: 53px;
+    align-items: center;
 }
 
-.pagination__display, .pagination__list {
-    display: inline-block;
-    vertical-align: middle;
+.pagination--theme--light .pagination__item--active .pagination__link, .pagination__link:hover {
+    color: #fff;
+}
+
+.pagination--theme--light:hover {
+    
+}
+
+.pagination__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .pagination__display {
+    align-items: center;
     margin-right: 26px;
 }
 
 .pagination__item {
-    display: inline-block;
     vertical-align: middle;
 }
 

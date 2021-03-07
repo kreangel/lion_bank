@@ -1,12 +1,9 @@
 .socials {
-    position: absolute;
-    top: 20px;
-    right: 265px;
+margin-right: 75px;
 }
 
 .socials__item {
     display: inline-block;
-    vertical-align: middle;
     margin-right: 5px;
 }
 

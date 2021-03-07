@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     margin-top:  51px;
+    margin-bottom: 127px;
 }
 
 .offers__item {
@@ -33,7 +34,6 @@
 
 .offer__header {
     position: relative;
-    justify-content: center;
     min-height: 144px;
     background: #fcfcfc;
     display: flex;
