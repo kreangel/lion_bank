@@ -29,13 +29,6 @@ body {
     flex: 1;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    margin: 0px auto;
-    width: 1140px;
-}
-
 a {
     color: inherit;
 }
@@ -61,4 +54,9 @@ h1, h2, h3, h4, h5, h6 {
 img {
     display: block;
     max-width: 100%;
+}
+
+button {
+    background: transparent;
+    border: none;
 }

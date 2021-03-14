@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    width: 1140px;
+}
+
+.container__services {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    width: 1200px;
+}

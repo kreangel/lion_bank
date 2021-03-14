@@ -9,3 +9,15 @@
     font-weight: bold;
     line-height: 49px;
 }
+
+.inner-section {
+    background: #f4f5f5;
+    color: #202020;
+    padding: 88px 0px;
+}
+
+.inner-section__title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}

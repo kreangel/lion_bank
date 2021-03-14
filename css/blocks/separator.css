@@ -1,0 +1,88 @@
+.separator {
+    background: url(../../img/phone-n-hand.png) right 413px bottom no-repeat, linear-gradient(0deg, #E5C288, #E5C288);
+    min-height: 360px;
+    display: flex;    
+    justify-content: end;
+    flex-direction: column;
+    justify-content: center;
+    color: #202020; 
+}
+
+.separator__content {
+    max-width: 40%;
+    display: flex;
+}
+
+.separator__title {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 65px;
+}
+
+/*---------*/
+
+.form__row {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form__input {
+    flex: 1;
+    margin-right: 30px;
+    border-radius: 5px;
+    border: none;
+    background: #fff;
+    padding: 22px 30px;
+    font-size: 18px;
+    color: #1a1b1e;
+}
+
+.form__input--textarea {
+    height: 232px;
+}
+
+.form__input::placeholder {
+    color: #666;
+}
+
+.form__input:last-child {
+    margin-right: 0px;
+}
+
+.form__controls {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.form__controls-title {
+    width: 38%;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.form__btns {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form__btn {
+    margin-right: 20px;
+}
+
+.controls__list {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.controls__elem {
+    cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .tag {
+    background: #b9eae4;
+}
+
+.controls__checkbox {
+    display: none;
+}

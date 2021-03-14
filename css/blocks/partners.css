@@ -1,0 +1,18 @@
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partners__link {
+    text-decoration: none;
+    display: flex;
+    width: 285px;
+    height: 122px;
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(100%);
+}
+
+.partners__link:hover {
+    filter: grayscale(0);
+}
