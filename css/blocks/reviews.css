@@ -5,14 +5,14 @@
 }
 
 .reviews__item {
-    margin-bottom: 4px;
+    margin-bottom: 20px;
 }
 
 .review {
     display: inline-flex;
     flex-direction: column;
-    padding: 50px 30px;
-    background: #f4f5f5;
+    padding: 50px 30px 34px 30px;
+    background: #eaeaea;
 }
 
 .review__header {
