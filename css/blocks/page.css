@@ -10,5 +10,9 @@
     color: #303030;
     padding: 40px 0;
     margin: 0 auto;
-    min-height: 1240px;
+    min-height: 1255px;
+}
+
+.page-reviews {
+    min-height: 1582px;
 }

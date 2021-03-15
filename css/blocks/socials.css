@@ -19,6 +19,38 @@ margin-right: 75px;
     opacity: 25%;
 }
 
+.soc-tg:before {
+    position: absolute;
+    content: "";
+    width: 36px; 
+    height: 36px;
+    background: url("../../img/soc_sprites.png") -172px -10px;
+}
+
+.soc-vk:before {
+    position: absolute;
+    content: "";
+    width: 36px; 
+    height: 36px;
+    background: url("../../img/soc_sprites.png") -228px -10px;
+}
+
+.soc-fb:before {
+    position: absolute;
+    content: "";
+    width: 36px; 
+    height: 36px;
+    background: url("../../img/soc_sprites.png") -60px -10px;
+}
+
+.soc-in:before {
+    position: absolute;
+    content: "";
+    width: 36px; 
+    height: 36px;
+    background: url("../../img/soc_sprites.png") -116px -10px;
+}
+
 .socials__link:hover{
     opacity: 100%;
 }

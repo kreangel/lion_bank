@@ -1,10 +1,11 @@
 .reviews__list {
     column-count: 2;
     column-gap: 27px;
+    margin-top: 64px;
 }
 
 .reviews__item {
-    margin-bottom: 20px;
+    margin-bottom: 4px;
 }
 
 .review {
@@ -17,7 +18,11 @@
 .review__header {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 26px;
+}
+
+.review__userdata {
+    margin-top: 14px;
 }
 
 .review__user {
@@ -25,26 +30,35 @@
     align-items: center;
     font-size: 24px;
     font-weight: bold;
+    color: #202020;
+    margin-left: 20px;
+    margin-bottom: 7px;
+}
+
+.review__user:hover {
     color: #2e77a4;
-    margin-bottom: 11px;
 }
 
 .review__user:after {
-    content: url(../../img/vk-blue1.png);
-    height: 29px;
+    content: "";
+    height: 30px;
+    width: 30px;
+    top: 15px;
+    left: 15px;
     margin-left: 4px;
+    background: url("../../img/soc_sprites.png") -10px -10px;
 }
 
 .review__title {
     font-size: 30px;
     color: #202020;
     font-weight: bold;
-    margin-bottom: 23px;
 }
 
 .review__content-text {
+    line-height: 27px;
     color: #818181;
-    margin-bottom: 50px;
+    margin-bottom: 45px;
 }
 
 .review__date{
@@ -63,18 +77,24 @@
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
+    margin-left: 18px;
 }
 
 .tag {
     font-size: 13px;
     color: #303030;
-    padding: 8px 16px;
+    padding: 10px 25px;
     border-radius: 20px;
     background: #e7e7e7;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    
 }
 
 .review__tag-item {
     background: #b9eae4;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.review__tag-item:last-child {
+    margin-right: 0px;
 }
